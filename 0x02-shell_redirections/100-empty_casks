@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f,d -empty -execdir basename {} \;
+find . -type f,d -empty -printf '%P\n'
